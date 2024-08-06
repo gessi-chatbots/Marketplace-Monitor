@@ -17,11 +17,11 @@ import environ
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 env = environ.Env()
-environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+environ.Env.read_env(os.path.join(BASE_DIR, 'local.env'))
 
-SECRET_KEY = env('SECRET_KEY')
-DEBUG = env('DEBUG'
-            )
+SECRET_KEY = env('SECRET_KEY', default='dummy_secret_key')
+DEBUG = env.bool('DEBUG', default=True)
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -86,14 +86,13 @@ WSGI_APPLICATION = 'MonitoringSoftwareMarketplaces.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': env('MYSQL_ENGINE'),
+        'ENGINE': env('MYSQL_ENGINE', default='django.db.backends.mysql'),
         'NAME': env('MYSQL_DATABASE'),
         'USER': env('MYSQL_USER'),
         'PASSWORD': env('MYSQL_PASSWORD'),
-        'HOST': env('MYSQL_HOST'),
-        'PORT': env('MYSQL_PORT'),
+        'HOST': env('MYSQL_HOST', default='localhost'),
+        'PORT': env('MYSQL_PORT', default=3306),
     }
-
 }
 
 
