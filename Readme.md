@@ -38,3 +38,4 @@ You can download MySQL via the [official website](https://dev.mysql.com/download
 ```python manage.py runserver```
 
 ## How to deploy
+In progress...
