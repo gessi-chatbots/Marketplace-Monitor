@@ -6,7 +6,7 @@ class Category(models.Model):
     api_name = models.CharField(max_length=500)
     url = models.URLField(max_length=500)
     description = models.TextField(blank=True, null=True)
-    marketplace = models.CharField(max_length=500)
+    marketplace = models.CharField(max_length=500, blank=True, null=True)
     type = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
@@ -18,7 +18,7 @@ class Category(models.Model):
 class CategoryInProduct(models.Model):
     product = models.CharField(max_length=500)
     category = models.CharField(max_length=500)
-    marketplace = models.CharField(max_length=500)
+    marketplace = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         db_table = 'CategoryInProduct'
@@ -39,7 +39,7 @@ class Market(models.Model):
     identifier = models.IntegerField(primary_key=True)
     url = models.URLField(max_length=500)
     name = models.CharField(max_length=500)
-    marketplace = models.CharField(max_length=500)
+    marketplace = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         db_table = 'Market'
@@ -50,7 +50,7 @@ class Market(models.Model):
 class CategoryInMarket(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     market = models.ForeignKey(Market, on_delete=models.CASCADE)
-    marketplace = models.CharField(max_length=500)
+    marketplace = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         db_table = 'CategoryInMarket'
@@ -61,8 +61,7 @@ class CategoryInMarket(models.Model):
 class Keyword(models.Model):
     identifier = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=500)
-    marketplace = models.CharField(max_length=500)
-
+    marketplace = models.CharField(max_length=500, blank=True, null=True)
     class Meta:
         db_table = 'Keywords'
 
@@ -76,7 +75,7 @@ class Product(models.Model):
     description = models.TextField(blank=True, null=True)
     type = models.CharField(max_length=500, blank=True, null=True)
     creator = models.CharField(max_length=500, blank=True, null=True)
-    marketplace = models.CharField(max_length=500)
+    marketplace = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         db_table = 'Product'
@@ -87,7 +86,7 @@ class Product(models.Model):
 class ProductKeyword(models.Model):
     product = models.CharField(max_length=500)
     keywords = models.CharField(max_length=500)
-    marketplace = models.CharField(max_length=500)
+    marketplace = models.CharField(max_length=500, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
 
     class Meta:
