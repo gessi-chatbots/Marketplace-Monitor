@@ -3,21 +3,23 @@ Project based in the [Final Degree Project](https://upcommons.upc.edu/bitstream/
 
 ## How to execute
 ### Local development
-#### 1 - Install pipenv (if not already installed)
+#### MySQL installation and database creation
+#### Local execution
+##### 1 - Install pipenv (if not already installed)
 '''
 pip install pipenv
 '''
-#### 2 - Install requirements
+##### 2 - Install requirements
 '''
 pipenv install
 '''
 
-#### 3 - Execute virtual environment
+##### 3 - Execute virtual environment
 '''
 pipenv shell
 '''
 
-#### 4 - Execute django server
+##### 4 - Execute django server
 '''
 python manage.py runserver
 '''
