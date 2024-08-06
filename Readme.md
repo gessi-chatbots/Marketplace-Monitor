@@ -5,11 +5,11 @@ Project based in the [Final Degree Project](https://upcommons.upc.edu/bitstream/
 ### Local development
 For local development you need to:
 
-1 - Install MySQL
-2 - Create a MySQL database
-3 - Fill .env with MySQL settings
-4 - Create and execute migrations
-5 - Execute django application
+1. Install MySQL
+2. Create a MySQL database
+3. Fill .env with MySQL settings
+4. Create and execute migrations
+5. Execute django application
 
 You can find in the following subsections the required steps for doing it.
 #### MySQL installation and database creation
