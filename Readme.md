@@ -12,22 +12,15 @@ You can find in the following subsections the required steps for doing it.
 #### MySQL installation and database creation
 #### Local execution
 ##### 1 - Install pipenv (if not already installed)
-'''
-pip install pipenv
-'''
+```pip install pipenv```
+
 ##### 2 - Install requirements
-'''
-pipenv install
-'''
+```pipenv install```
 
 ##### 3 - Execute virtual environment
-'''
-pipenv shell
-'''
+```pipenv shell```
 
 ##### 4 - Execute django server
-'''
-python manage.py runserver
-'''
+```python manage.py runserver```
 
 ## How to deploy
