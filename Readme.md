@@ -25,6 +25,7 @@ You can download MySQL via the [official website](https://dev.mysql.com/download
 ![Step 2](./readme-images/connection/2-connection.png)
 ![Step 3](./readme-images/connection/3-connection.png)
 
+
 #### Local execution
 ##### 1 - Install pipenv (if not already installed)
 ```pip install pipenv```
