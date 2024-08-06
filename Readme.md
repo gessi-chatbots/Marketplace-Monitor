@@ -18,6 +18,7 @@ You can download MySQL via the [official website](https://dev.mysql.com/download
 ![Step 2](./readme-images/setup/2-setup.png)
 ![Step 3](./readme-images/setup/3-setup.png)
 ![Step 4](./readme-images/setup/4-setup.png)
+![Step 5](./readme-images/setup/5-setup.png)
 
 #### 3 - Connection to DB
 ![Step 1](./readme-images/connection/1-connection.png)
@@ -34,7 +35,13 @@ You can download MySQL via the [official website](https://dev.mysql.com/download
 ##### 3 - Execute virtual environment
 ```pipenv shell```
 
-##### 4 - Execute django server
+##### 4 - Create migrations for database
+```python manage.py makemigrations```
+
+##### 4 - Execute migrations in database
+```python manage.py migrate```
+
+##### 5 - Execute monitor
 ```python manage.py runserver```
 
 ## How to deploy
