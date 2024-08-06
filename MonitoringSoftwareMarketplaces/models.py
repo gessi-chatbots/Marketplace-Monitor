@@ -75,7 +75,7 @@ class Product(models.Model):
     name = models.CharField(max_length=500)
     description = models.TextField(blank=True, null=True)
     type = models.CharField(max_length=500, blank=True, null=True)
-    creator = models.CharField(max_length=500)
+    creator = models.CharField(max_length=500, blank=True, null=True)
     marketplace = models.CharField(max_length=500)
 
     class Meta:
