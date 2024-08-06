@@ -7,7 +7,7 @@ class Category(models.Model):
     url = models.URLField(max_length=500)
     description = models.TextField(blank=True, null=True)
     marketplace = models.CharField(max_length=500)
-    type = models.CharField(max_length=500)
+    type = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         db_table = 'Category'
@@ -74,7 +74,7 @@ class Product(models.Model):
     url = models.URLField(max_length=500)
     name = models.CharField(max_length=500)
     description = models.TextField(blank=True, null=True)
-    type = models.CharField(max_length=500)
+    type = models.CharField(max_length=500, blank=True, null=True)
     creator = models.CharField(max_length=500)
     marketplace = models.CharField(max_length=500)
 
