@@ -1,8 +1,6 @@
 # Create your models here.
 from django.db import models
-
-
-    
+  
 class Category(models.Model):
     identifier = models.IntegerField(primary_key=True)
     name = models.TextField()

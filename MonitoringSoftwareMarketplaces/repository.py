@@ -2,8 +2,6 @@ from MonitoringSoftwareMarketplaces.models import *
 
 class Repository:
 
-
-        
     def deleteProduct(id, marketplace):
         try:
             product = Product.objects.get(identifier=id, marketplace=marketplace)

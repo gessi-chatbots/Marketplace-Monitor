@@ -1,4 +1,3 @@
-
 class JSONParser:
     def load_data_source(self, path: str, file_name: str) -> str:
         """Load in the file for extracting text."""
