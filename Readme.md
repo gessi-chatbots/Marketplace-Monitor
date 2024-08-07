@@ -19,16 +19,16 @@ The step by step is done with DBeaver, but feel free to use any other software y
 ##### 1 - Download MySQL
 You can download MySQL via the [official website](https://dev.mysql.com/downloads/installer/).
 ##### 2 - Install & Create MySQL Database
-![Step 1](./readme-images/setup/1-setup.png)
-![Step 2](./readme-images/setup/2-setup.png)
-![Step 3](./readme-images/setup/3-setup.png)
-![Step 4](./readme-images/setup/4-setup.png)
-![Step 5](./readme-images/setup/5-setup.png)
+<img src="./readme-images/setup/1-setup.png" width="600" alt="Step 1">
+<img src="./readme-images/setup/2-setup.png" width="600" alt="Step 2">
+<img src="./readme-images/setup/3-setup.png" width="600" alt="Step 3">
+<img src="./readme-images/setup/4-setup.png" width="600" alt="Step 4">
+<img src="./readme-images/setup/5-setup.png" width="600" alt="Step 5">
 
 ##### 3 - Connection to DB
-![Step 1](./readme-images/connection/1-connection.png)
-![Step 2](./readme-images/connection/2-connection.png)
-![Step 3](./readme-images/connection/3-connection.png)
+<img src="./readme-images/connection/1-connection.png" width="600" alt="Step 1">
+<img src="./readme-images/connection/2-connection.png" width="600" alt="Step 2">
+<img src="./readme-images/connection/3-connection.png" width="600" alt="Step 3">
 
 
 #### Local execution
