@@ -4,27 +4,31 @@ Project based in the [Final Degree Project](https://upcommons.upc.edu/bitstream/
 ## How to execute
 ### Local development
 For local development you need to:
-1 - Install MySQL
-2 - Create a MySQL database
-3 - Fill .env with MySQL settings
-4 - Create and execute migrations
-4 - Execute django application
+
+1. Install MySQL
+2. Create a MySQL database
+3. Fill .env with MySQL settings
+4. Create and execute migrations
+5. Execute django application
+
 You can find in the following subsections the required steps for doing it.
+
+
 #### MySQL installation and database creation
 The step by step is done with DBeaver, but feel free to use any other software you see apropiate. 
 ##### 1 - Download MySQL
 You can download MySQL via the [official website](https://dev.mysql.com/downloads/installer/).
 ##### 2 - Install & Create MySQL Database
-![Step 1](resources/readme-images/setup/1-setup.png)
-![Step 2](resources/readme-images/setup/2-setup.png)
-![Step 3](resources/readme-images/setup/3-setup.png)
-![Step 4](resources/readme-images/setup/4-setup.png)
-![Step 5](resources/readme-images/setup/5-setup.png)
+<img src="./readme-images/setup/1-setup.png" width="600" alt="Step 1">
+<img src="./readme-images/setup/2-setup.png" width="600" alt="Step 2">
+<img src="./readme-images/setup/3-setup.png" width="600" alt="Step 3">
+<img src="./readme-images/setup/4-setup.png" width="600" alt="Step 4">
+<img src="./readme-images/setup/5-setup.png" width="600" alt="Step 5">
 
 ##### 3 - Connection to DB
-![Step 1](resources/readme-images/connection/1-connection.png)
-![Step 2](resources/readme-images/connection/2-connection.png)
-![Step 3](resources/readme-images/connection/3-connection.png)
+<img src="./readme-images/connection/1-connection.png" width="600" alt="Step 1">
+<img src="./readme-images/connection/2-connection.png" width="600" alt="Step 2">
+<img src="./readme-images/connection/3-connection.png" width="600" alt="Step 3">
 
 
 #### Local execution
@@ -56,5 +60,7 @@ MYSQL_PORT=3306
 ##### 7 - Execute monitor
 ```python manage.py runserver```
 
+
+---
 ## How to deploy
 In progress...
