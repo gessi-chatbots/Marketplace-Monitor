@@ -1,5 +1,8 @@
 # Marketplace Monitor
+
 Project based in the [Final Degree Project](https://upcommons.upc.edu/bitstream/handle/2117/412036/188375.pdf?sequence=2&isAllowed=y) made by @maciasj. 
+
+---
 
 ## How to execute
 ### Local development
@@ -19,17 +22,28 @@ The step by step is done with DBeaver, but feel free to use any other software y
 ##### 1 - Download MySQL
 You can download MySQL via the [official website](https://dev.mysql.com/downloads/installer/).
 ##### 2 - Install & Create MySQL Database
-<img src="./readme-images/setup/1-setup.png" width="600" alt="Step 1">
-<img src="./readme-images/setup/2-setup.png" width="600" alt="Step 2">
-<img src="./readme-images/setup/3-setup.png" width="600" alt="Step 3">
-<img src="./readme-images/setup/4-setup.png" width="600" alt="Step 4">
-<img src="./readme-images/setup/5-setup.png" width="600" alt="Step 5">
+<img src="./resources/readme-images/setup/1-setup.png" width="300" alt="Step 1">
+<br>
+<img src="./resources/readme-images/setup/2-setup.png" width="300" alt="Step 2">
+<br>
+<img src="./resources/readme-images/setup/3-setup.png" width="300" alt="Step 3">
+<br>
+<img src="./resources/readme-images/setup/4-setup.png" width="300" alt="Step 4">
+<br>
+
 
 ##### 3 - Connection to DB
-<img src="./readme-images/connection/1-connection.png" width="600" alt="Step 1">
-<img src="./readme-images/connection/2-connection.png" width="600" alt="Step 2">
-<img src="./readme-images/connection/3-connection.png" width="600" alt="Step 3">
 
+<img src="./resources/readme-images/connection/1-connection.png" width="300" alt="Step 1">
+<br>
+<img src="./resources/readme-images/connection/2-connection.png" width="300" alt="Step 2">
+<br>
+<img src="./resources/readme-images/connection/3-connection.png" width="300" alt="Step 3">
+<br>
+<img src="./resources/readme-images/setup/5-setup.png" width="300" alt="Step 3">
+<br>
+<img src="resources/readme-images/setup/6-setup.png" width="300" alt="Step 5">
+<br>
 
 #### Local execution
 ##### 1 - Install pipenv (if not already installed)
