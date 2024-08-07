@@ -59,6 +59,8 @@ MYSQL_PORT=3306
 
 ##### 7 - Execute monitor
 ```python manage.py runserver```
+
+
 ---
 ## How to deploy
 In progress...
