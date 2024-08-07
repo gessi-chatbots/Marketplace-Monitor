@@ -12,6 +12,8 @@ For local development you need to:
 5. Execute django application
 
 You can find in the following subsections the required steps for doing it.
+
+
 #### MySQL installation and database creation
 The step by step is done with DBeaver, but feel free to use any other software you see apropiate. 
 ##### 1 - Download MySQL
@@ -57,6 +59,6 @@ MYSQL_PORT=3306
 
 ##### 7 - Execute monitor
 ```python manage.py runserver```
-
+---
 ## How to deploy
 In progress...
